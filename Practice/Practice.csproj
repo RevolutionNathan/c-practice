@@ -43,17 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CountCharInString.cs" />
     <Compile Include="CountingDuplicatesInStrings.cs" />
     <Compile Include="DifferenceBtwStrings.cs" />
     <Compile Include="DNA.cs" />
+    <Compile Include="FirstNonRepChar.cs" />
     <Compile Include="HammingWeight.cs" />
     <Compile Include="MissingNumber.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReverseBits.cs" />
     <Compile Include="RouteCircle.cs" />
+    <Compile Include="ShowPascalsTriangle.cs" />
     <Compile Include="SingleNUmber.cs" />
     <Compile Include="SquaresInRectangle.cs" />
+    <Compile Include="StringAbbreviation.cs" />
     <Compile Include="TortiseRace.cs" />
     <Compile Include="TwoSum.cs" />
   </ItemGroup>
