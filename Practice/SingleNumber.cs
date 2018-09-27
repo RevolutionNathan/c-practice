@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Practice
 {
-    class SingleNUmber
+    class SingleNumber
     {
-        public int SingleNumber(int[] nums)
+        public int Solution(int[] nums)
         {
             int difference = nums.GroupBy(x => x).Where(y => y.Count() % 2 != 0 || y.Count() == 1).First().First();
 

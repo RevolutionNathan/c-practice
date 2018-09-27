@@ -10,13 +10,13 @@ namespace Practice
     {
         static void Main(string[] args)
         {
-            int v1 = 720;
-            int v2 = 850;
-            int g = 70;
+            string test = "Test";
 
-            TortiseRace TR = new TortiseRace();
-            TR.Race(v1, v2, g);
+            FirstInstanceOfNonRepeatingLetter fin = new FirstInstanceOfNonRepeatingLetter();
 
+            string result = fin.FirstNonRepeatingLetter(test);
+                                              
+            Console.Write(result);
             Console.ReadKey();
 
         }
